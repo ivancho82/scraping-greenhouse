@@ -19,16 +19,16 @@ class Params(object):
         #URI API MAPS
         self.uri_api = "https://maps.googleapis.com/maps/api/place/textsearch/json"       
         #GCP API KEY
-        self.key  = os.getenv("KEY_GCP","AIzaSyCSxNtTSEXBNys_DzBZnpJ5Rv46UOAQPGA")
+        self.key  = os.getenv("KEY_GCP","")
         
         ############ DATABASE PARAMS
         #HOST
-        self.sql_host = os.getenv("PG_HOST","35.232.179.29")
+        self.sql_host = os.getenv("PG_HOST","")
         #DATABASE
-        self.sql_database = os.getenv("PG_DATABASE","postgres")
+        self.sql_database = os.getenv("PG_DATABASE","")
         #USER
-        self.sql_user = os.getenv("PG_USER","postgres")
+        self.sql_user = os.getenv("PG_USER","")
         #PASSWORD
-        self.sql_password = os.getenv("PG_PASSWORD","wLCE3zp8qDlg2kwB")
+        self.sql_password = os.getenv("PG_PASSWORD","")
         #TABLE_NAME
-        self.sql_table = os.getenv("PG_TABLE","vacantes")
+        self.sql_table = os.getenv("PG_TABLE","")
